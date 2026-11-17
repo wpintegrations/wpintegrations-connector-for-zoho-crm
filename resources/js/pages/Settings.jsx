@@ -7,10 +7,10 @@ import ZohoCrmConnection from '../components/ZohoCrmConnection'
 
 // What the separate Pro plugin offers, as the readme lists it.
 const PRO_FEATURES = [
-  'Every Zoho CRM field, including your custom fields',
-  'Updates the existing lead or contact instead of creating a duplicate',
+  'Any Zoho CRM module, custom modules included, with every field of the layout you choose',
+  'Updates the existing record instead of creating a duplicate',
   'An Account and a Deal created with the contact, in the pipeline and stage you choose',
-  'Record owner, tags and uploaded files attached to the record',
+  'Record owner, assignment rules, tags, notes, and uploaded files in file fields or attached',
   'A delivery queue that retries a failed send on its own, and conditions such as sending only when consent is given'
 ]
 

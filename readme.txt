@@ -47,11 +47,13 @@ One plugin covers them all: each integration picks a Zoho CRM record type, then 
 
 A separate Pro plugin, sold on [wpintegrations.net](https://wpintegrations.net/plugins/), adds:
 
-* Every Zoho CRM field, including your custom fields
-* Updating the existing lead or contact, matched by email, instead of creating a duplicate
+* Any Zoho CRM module, custom modules included — Deals, Accounts, Cases, Tasks, Products and more
+* Every Zoho CRM field, including your custom fields, following the layout you choose
+* Updating the existing record instead of creating a duplicate, matched by email or any field marked unique in Zoho CRM
 * An Account and a Deal created with the contact, in the pipeline and stage you choose
-* Record owner and tags
-* Files uploaded through the form, attached to the record
+* Record owner, assignment rules and tags
+* Approval processes and blueprints, Notes, and the Google Ads click ID (GCLID)
+* Files uploaded through the form, placed in File Upload and Image Upload fields or attached to the record
 * A delivery queue that retries failed sends automatically, and Resend for failed deliveries in the log
 * Conditions — send only when the answers match, e.g. only when the consent box is ticked
 
@@ -113,7 +115,7 @@ Check that you copied both from the same client, that the client type is Server-
 
 = What happens when the same person submits twice? =
 
-The free version creates a new record each time, as Zoho's own web forms do. The Pro version can update the existing lead or contact instead, matched by email.
+The free version creates a new record each time, as Zoho's own web forms do. The Pro version can update the existing record instead, matched by email or by any field marked unique in Zoho CRM.
 
 = Does it work with the free version of Elementor? =
 
