@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       WPIntegrations Form Connector for Zoho CRM
  * Description:       Send Contact Form 7, Elementor Pro, WPForms, Fluent Forms and Gravity Forms submissions to Zoho CRM as leads or contacts, with field mapping and delivery logs. Not affiliated with Zoho or any form plugin.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 6.2
  * Requires PHP:      7.4
  * Author:            WPIntegrations
@@ -38,7 +38,7 @@ if ( $wpi_zcrm_pro_alive ) {
 	return;
 }
 
-define( 'WPI_ZCRM_VERSION', '1.0.0' );
+define( 'WPI_ZCRM_VERSION', '1.0.1' );
 define( 'WPI_ZCRM_FILE', __FILE__ );
 define( 'WPI_ZCRM_PATH', plugin_dir_path( __FILE__ ) );
 define( 'WPI_ZCRM_URL', plugin_dir_url( __FILE__ ) );

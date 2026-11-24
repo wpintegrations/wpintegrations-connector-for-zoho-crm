@@ -4,7 +4,7 @@ Tags: zoho crm, zoho, contact form 7, wpforms, gravity forms
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,7 +45,7 @@ One plugin covers them all: each integration picks a Zoho CRM record type, then 
 
 = Pro version =
 
-A separate Pro plugin, sold on [wpintegrations.net](https://wpintegrations.net/plugins/), adds:
+A separate Pro plugin, sold on [wpintegrations.net](https://wpintegrations.net/plugins/connect-wordpress-forms-to-zoho-crm/), adds:
 
 * Any Zoho CRM module, custom modules included — Deals, Accounts, Cases, Tasks, Products and more
 * Every Zoho CRM field, including your custom fields, following the layout you choose
@@ -95,6 +95,8 @@ No data is sent to WPIntegrations or any other third party. Zoho terms of servic
 3. Paste the client's Client ID and Client Secret on the plugin's **Settings** tab, save them, and click **Connect to Zoho CRM**. Allow access in Zoho, then use **Test connection**.
 4. Open the **Integrations** tab and create an integration: choose Lead or Contact, pick the form plugin and the form, map the fields, and save.
 
+The full walkthrough, Zoho API Console and Multi-DC included, is in the [getting-started guide](https://wpintegrations.net/docs/wordpress-forms-zoho-crm-getting-started/).
+
 == Frequently Asked Questions ==
 
 = Which fields do I have to map? =
@@ -134,6 +136,9 @@ In `resources/js/` inside the plugin, and publicly at [github.com/wpintegrations
 The **Logs** tab shows every delivery with the full request and response.
 
 == Changelog ==
+
+= 1.0.1 =
+* The Pro card on the Settings page now links to the plugin's own page on wpintegrations.net.
 
 = 1.0.0 =
 * Initial release: Contact Form 7, Elementor Pro, WPForms, Fluent Forms and Gravity Forms submissions to Zoho CRM leads and contacts, with field mapping, every Zoho data centre, workflow rules on or off, a delivery log and encrypted credential storage.

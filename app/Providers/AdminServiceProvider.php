@@ -19,7 +19,7 @@ final class AdminServiceProvider extends ServiceProvider {
 	 * Where the separate Pro plugin is described. The plugins catalog until this
 	 * plugin has its own page on wpintegrations.net.
 	 */
-	const PRO_URL = 'https://wpintegrations.net/plugins/';
+	const PRO_URL = 'https://wpintegrations.net/plugins/connect-wordpress-forms-to-zoho-crm/';
 
 	/**
 	 * The WPIntegrations mark, 20px cut, from brand/svg/wpi-admin-menu-icon.svg.

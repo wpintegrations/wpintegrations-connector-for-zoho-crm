@@ -1,6 +1,6 @@
 {
 	"name": "wpintegrations-connector-for-zoho-crm",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"private": true,
 	"description": "Admin app for the WPIntegrations Form Connector for Zoho CRM",
 	"scripts": {
